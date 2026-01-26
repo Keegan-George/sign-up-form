@@ -17,6 +17,14 @@ body{
     flex: auto;
 }
 
+.left{
+    width: 40vw;
+}
+
+.right{
+    width: 60vw;
+}
+
 .top{
     height: 35vh;
 }
