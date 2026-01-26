@@ -17,3 +17,15 @@ body{
     flex: auto;
 }
 
+.top{
+    height: 35vh;
+}
+
+.middle{
+    height: 30vh;
+}
+
+.bottom{
+    height: 35vh;
+}
+
