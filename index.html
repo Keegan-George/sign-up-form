@@ -10,14 +10,22 @@
 <body>
     <div class="container">
         <div class="left">
+            <p>test</p>
         </div>
 
         <div class="right">
             <div class="top">
+                <p>This is not a real online service! You know you need something like this in your life to help you
+                    realize your
+                    deepest dreams.
+                    Sign up now to get started.
+
+                    You know you want to.
+                </p>
             </div>
 
             <div class="middle">
-                <form method="get">
+                <form id="submit_form" method="get">
                     <p>
                         <label for="first_name">First Name</label>
                         <input type="text" id="first_name" name="first_name">
@@ -48,14 +56,14 @@
                         <input type="password" id="confirm_password" name="confirm_password">
                     </p>
                 </form>
-
             </div>
-            <div class="bottom"></div>
+
+            <div class="bottom">
+                <button type="submit" form="submit_form">Create Account</button>
+                <p>Already have an account? Log in</p>
+            </div>
         </div>
-
-
     </div>
-
 </body>
 
 </html>
