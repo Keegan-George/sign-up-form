@@ -4,7 +4,7 @@
     box-sizing: border-box;
 }
 
-body{
+body {
     text-align: center;
 }
 
@@ -13,27 +13,24 @@ body{
 }
 
 .left,
-.right{
+.right {
     flex: auto;
 }
 
-.left{
-    width: 40vw;
-}
-
-.right{
-    width: 60vw;
-}
-
-.top{
+.top {
     height: 35vh;
+    background-color: #f9fafb;
 }
 
-.middle{
+.middle {
     height: 30vh;
 }
 
-.bottom{
+.bottom {
     height: 35vh;
+    background-color: #f9fafb;
 }
 
+.top>p {
+    font-weight: 700;
+}
