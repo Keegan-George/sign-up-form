@@ -44,3 +44,7 @@ body {
     padding-right: 20%;
     padding-top: 16vh;
 }
+
+.italic{
+    font-style: italic;
+}
