@@ -49,3 +49,7 @@ body {
 .italic {
     font-style: italic;
 }
+
+.text-container {
+    max-inline-size: 65ch;
+}
