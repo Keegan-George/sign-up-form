@@ -6,6 +6,7 @@
 
 body {
     text-align: center;
+    --section-color: #f9fafb;
 }
 
 .container {
@@ -17,20 +18,16 @@ body {
     flex: auto;
 }
 
-.top {
+.top, .bottom {
     height: 35vh;
-    background-color: #f9fafb;
+    background-color: var(--section-color);
 }
 
 .middle {
     height: 30vh;
 }
 
-.bottom {
-    height: 35vh;
-    background-color: #f9fafb;
-}
-
 .top>p {
     font-weight: 700;
+    font-size: 20px;
 }
