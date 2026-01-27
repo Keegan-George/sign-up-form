@@ -38,8 +38,9 @@ body {
     height: 30vh;
 }
 
-.top>p {
+.top {
     font-weight: 700;
     font-size: 20px;
-
+    padding-right: 20%;
+    padding-top: 16vh;
 }
