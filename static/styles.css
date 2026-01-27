@@ -13,12 +13,23 @@ body {
     display: flex;
 }
 
-.left,
-.right {
-    flex: auto;
+.left {
+    width: 35vw;
 }
 
-.top, .bottom {
+.right {
+    width: 65vw;
+}
+
+.top,
+.middle,
+.bottom {
+    text-align: left;
+    padding-left: 5%;
+}
+
+.top,
+.bottom {
     height: 35vh;
     background-color: var(--section-color);
 }
@@ -30,4 +41,5 @@ body {
 .top>p {
     font-weight: 700;
     font-size: 20px;
+
 }
