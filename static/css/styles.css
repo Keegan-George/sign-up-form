@@ -17,6 +17,9 @@ body {
 
 .left {
     width: 35vw;
+    background-image: url("../img/lucha-masks.jpg");
+    background-size: cover;
+
 }
 
 .right {
