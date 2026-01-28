@@ -9,3 +9,5 @@ Photo by <a href="https://unsplash.com/@larry3?utm_source=unsplash&utm_medium=re
 Fonts used:
 - Gravitas One by Sorkin Type (OFL)
 - Montserrat by Julieta Ulanovsky (OFL)
+
+SVG Luchadore icon by game-icons.net
