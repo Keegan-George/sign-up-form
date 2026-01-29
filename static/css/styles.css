@@ -47,8 +47,9 @@ body {
     background-color: var(--logo-background-color);
 }
 
-.image-container {
-    flex: 1;
+.image-container,
+.title-container {
+    flex: initial;
 }
 
 img {
@@ -56,8 +57,7 @@ img {
     width: 100%;
 }
 
-.title-container{
-    flex: 1;
+.title-container {
     display: flex;
     justify-content: center;
     align-items: center;
