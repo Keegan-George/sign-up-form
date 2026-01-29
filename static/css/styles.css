@@ -112,6 +112,7 @@ img {
 
 form {
     display: flex;
+    gap: 5%;
 }
 
 .form-column-left,
