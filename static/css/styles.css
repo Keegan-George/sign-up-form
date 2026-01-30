@@ -137,6 +137,10 @@ input:focus {
     box-shadow: #D3D3D3 3px 3px;
 }
 
+input[type=password]:invalid{
+    border-color: #ff0000;
+}
+
 .top {
     font-weight: 700;
     font-size: 20px;
