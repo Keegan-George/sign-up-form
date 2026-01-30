@@ -122,6 +122,10 @@ form {
 
 }
 
+label {
+    margin-top: 10%;
+}
+
 input {
     border: 1px solid #e5e7eb;
     border-radius: 5px;
