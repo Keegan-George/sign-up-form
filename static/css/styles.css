@@ -130,10 +130,12 @@ input {
     border: 1px solid #e5e7eb;
     border-radius: 5px;
     padding: 5px;
+    outline: none;
+    transition: 0.5s ease;
 }
 
 input:focus {
-    outline-color: #0424D9;
+    border-color: #0424D9;
     box-shadow: #D3D3D3 3px 3px;
 }
 
