@@ -134,6 +134,7 @@ input {
 
 input:focus {
     outline-color: #0424D9;
+    box-shadow: #D3D3D3 3px 3px;
 }
 
 .top {
