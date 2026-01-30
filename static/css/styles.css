@@ -137,7 +137,8 @@ input:focus {
     box-shadow: #D3D3D3 3px 3px;
 }
 
-input[type=password]:invalid{
+input[type=password]:invalid,
+input[type=email]:invalid {
     border-color: #ff0000;
 }
 
