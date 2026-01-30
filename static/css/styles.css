@@ -132,6 +132,10 @@ input {
     padding: 5px;
 }
 
+input:focus {
+    outline-color: #0424D9;
+}
+
 .top {
     font-weight: 700;
     font-size: 20px;
