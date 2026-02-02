@@ -104,13 +104,20 @@ main .middle {
     z-index: 0;
 }
 
+main .top,
+.middle .hype-text {
+    font-size: calc(0.75rem + 0.5vw);
+    font-weight: 700;
+}
+
+.middle .hype-text{
+    margin: 0.75rem 0;
+}
 
 main .top {
     display: flex;
     flex-direction: column;
     justify-content: center;
-    font-weight: 700;
-    font-size: calc(0.75rem + 0.5vw);
     padding-right: 20%;
 }
 
