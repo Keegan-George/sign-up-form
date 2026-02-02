@@ -27,7 +27,6 @@ body {
     --section-color: #f9fafb;
     --button-login-color: #4358dc;
     --logo-background-color: rgb(13 13 13 / 85%);
-
 }
 
 .container {
@@ -73,7 +72,7 @@ img {
     flex: 1;
     color: white;
     font-family: "Gravitas One";
-    font-size: 4em;
+    font-size: calc(4rem + 0.75vw);
 }
 
 .photo-attribution {
@@ -81,7 +80,7 @@ img {
     font-weight: 700;
     margin-top: 55vh;
     margin-bottom: 1vh;
-    font-size: calc(0.25rem + 0.5vw);
+    font-size: calc(0.5rem + 0.1vw);
 }
 
 .photo-attribution a {
@@ -124,6 +123,7 @@ form {
 
 label {
     margin-top: 10%;
+    font-size: calc(0.25rem + 0.5vw);
 }
 
 input {
@@ -146,7 +146,7 @@ input[type=email]:invalid {
 
 .top {
     font-weight: 700;
-    font-size: 20px;
+    font-size: calc(0.75rem + 0.5vw);
     padding-right: 20%;
     padding-top: 16vh;
 }
