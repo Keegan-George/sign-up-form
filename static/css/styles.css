@@ -128,7 +128,7 @@ form {
 }
 
 label {
-    margin-top: 10%;
+    margin-top: 1rem;
     font-size: calc(0.25rem + 0.5vw);
 }
 
