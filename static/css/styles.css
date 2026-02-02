@@ -50,7 +50,7 @@ figure {
     background-size: cover;
 }
 
-.logo {
+figure .logo {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -60,17 +60,17 @@ figure {
     background-color: var(--logo-background-color);
 }
 
-img {
+figure img {
     max-width: 20%;
 }
 
-h1 {
+figure h1 {
     color: white;
     font-family: "Gravitas One";
     font-size: calc(4rem + 0.75vw);
 }
 
-figcaption {
+figure figcaption {
     color: white;
     font-weight: 700;
     font-size: calc(0.5rem + 0.1vw);
