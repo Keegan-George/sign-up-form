@@ -75,7 +75,7 @@ img {
     font-size: calc(4rem + 0.75vw);
 }
 
-.photo-attribution {
+figcaption {
     color: white;
     font-weight: 700;
     margin-top: 55vh;
@@ -83,7 +83,7 @@ img {
     font-size: calc(0.5rem + 0.1vw);
 }
 
-.photo-attribution a {
+figcaption a {
     color: inherit;
     text-decoration: underline;
 }
