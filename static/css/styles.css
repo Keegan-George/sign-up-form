@@ -24,7 +24,7 @@ body {
     font-family: "Montserrat", Arial, Helvetica, sans-serif;
     color: black;
     text-align: center;
-    --section-color: #f9fafb;
+    --top-bottom-background-color: #f9fafb;
     --button-login-color: #4358dc;
     --logo-background-color: rgb(13 13 13 / 85%);
 }
@@ -102,7 +102,14 @@ img {
 .top,
 .bottom {
     height: 35vh;
-    background-color: var(--section-color);
+    background-color: var(--top-bottom-background-color);
+}
+
+.top {
+    font-weight: 700;
+    font-size: calc(0.75rem + 0.5vw);
+    padding-right: 20%;
+    padding-top: 13vh;
 }
 
 .sub-intro{
@@ -127,12 +134,12 @@ form {
 
 }
 
-label {
+form label {
     margin-top: 1rem;
     font-size: calc(0.25rem + 0.5vw);
 }
 
-input {
+form input {
     border: 1px solid #e5e7eb;
     border-radius: 5px;
     padding: 5px;
@@ -148,13 +155,6 @@ input:focus {
 input[type=password]:user-invalid,
 input[type=email]:user-invalid {
     border-color: #ff0000;
-}
-
-.top {
-    font-weight: 700;
-    font-size: calc(0.75rem + 0.5vw);
-    padding-right: 20%;
-    padding-top: 13vh;
 }
 
 .italic {
