@@ -26,6 +26,7 @@ body {
     text-align: center;
     --top-bottom-background-color: #f9fafb;
     --button-login-color: #4358dc;
+    --logo-color: white;
     --logo-background-color: rgb(13 13 13 / 85%);
 }
 
@@ -48,6 +49,7 @@ figure {
     height: 100vh;
     background-image: url("../img/lucha-masks.jpg");
     background-size: cover;
+    color: var(--logo-color);
 }
 
 figure .logo {
@@ -65,13 +67,11 @@ figure img {
 }
 
 figure h1 {
-    color: white;
     font-family: "Gravitas One";
     font-size: calc(4rem + 0.75vw);
 }
 
 figure figcaption {
-    color: white;
     font-weight: 700;
     font-size: calc(0.5rem + 0.1vw);
     margin-bottom: 1rem;
