@@ -40,6 +40,8 @@ aside {
 
 main {
     flex: 2;
+    display: flex;
+    flex-direction: column;
 }
 
 figure {
@@ -82,22 +84,19 @@ figcaption a {
     text-decoration: underline;
 }
 
-
-
-.top,
-.middle,
-.bottom {
+main .top,
+main .middle,
+main .bottom {
     text-align: left;
     padding-left: 5%;
 }
 
-.top,
-.bottom {
-    /* height: 35vh; */
+main .top,
+main .bottom {
     background-color: var(--top-bottom-background-color);
 }
 
-.top {
+main .top {
     font-weight: 700;
     font-size: calc(0.75rem + 0.5vw);
     padding-right: 20%;
