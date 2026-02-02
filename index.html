@@ -9,68 +9,79 @@
 
 <body>
     <div class="container">
-        <div class="left">
-            <div class="logo">
-                <div class="image-container">
-                    <img src="./static/img/lucha-mask-icon.svg" alt="Luchadore mask icon">
-                </div>
-                <div class="title-container">
-                    <p class="title">ODIN</p>
-                </div>
+        <aside>
+            <div class="left">
+                <header>
+                    <div class="logo">
+                        <div class="image-container">
+                            <img src="./static/img/lucha-mask-icon.svg" alt="Luchadore mask icon">
+                        </div>
+                        <div class="title-container">
+                            <p class="title">ODIN</p>
+                        </div>
 
+                    </div>
+                    <div class="photo-attribution">
+                        Photo by <a
+                            href="https://unsplash.com/@larry3?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Larry
+                            Costales</a> on <a
+                            href="https://unsplash.com/photos/assorted-color-of-masks-hanged-on-rod-ZsFXXsv5Qi4?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Unsplash</a>
+                    </div>
+                </header>
             </div>
-            <div class="photo-attribution">
-                Photo by <a
-                    href="https://unsplash.com/@larry3?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Larry
-                    Costales</a> on <a
-                    href="https://unsplash.com/photos/assorted-color-of-masks-hanged-on-rod-ZsFXXsv5Qi4?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Unsplash</a>
-            </div>
-        </div>
+        </aside>
 
-        <div class="right">
-            <div class="top">
-                <div class="text-container">
-                    <p>This is not a real online service! You know you need something like this in your life to help you
-                        realize your deepest dreams.<br />
-                        Sign up <span class="italic">now</span> to get started.
-                    </p><br />
+        <main>
+            <div class="right">
+                <div class="top">
+                    <div class="text-container">
+                        <p>This is not a real online service! You know you need something like this in your life to help
+                            you
+                            realize your deepest dreams.<br />
+                            Sign up <span class="italic">now</span> to get started.
+                        </p><br />
 
-                    <p>You <span class="italic">know</span> you want to.</p>
+                        <p>You <span class="italic">know</span> you want to.</p>
+                    </div>
                 </div>
-            </div>
 
-            <div class="middle">
-                <form id="submit_form" method="get">
-                    <div class="form-column-left">
-                        <label for="first_name">FIRST NAME</label>
-                        <input type="text" id="first_name" name="first_name" size="25">
+                <section>
+                    <div class="middle">
+                        <form id="submit_form" method="get">
+                            <div class="form-column-left">
+                                <label for="first_name">FIRST NAME</label>
+                                <input type="text" id="first_name" name="first_name" size="25">
 
-                        <label for="email">EMAIL</label>
-                        <input type="email" id="email" name="email" size="25" required>
+                                <label for="email">EMAIL</label>
+                                <input type="email" id="email" name="email" size="25" required>
 
-                        <label for="password">PASSWORD</label>
-                        <input type="password" id="password" name="password" size="25" pattern="[0-9a-fA-F]{3,}" required>
+                                <label for="password">PASSWORD</label>
+                                <input type="password" id="password" name="password" size="25" pattern="[0-9a-fA-F]{3,}"
+                                    required>
+                            </div>
+
+                            <div class="form-column-right">
+                                <label for="last_name">LAST NAME</label>
+                                <input type="text" id="last_name" name="last_name" size="25">
+
+                                <label for="phone">PHONE NUMBER</label>
+                                <input type="tel" id="phone" name="phone" size="25">
+
+                                <label for="confirm_password">CONFIRM PASSWORD</label>
+                                <input type="password" id="confirm_password" name="confirm_password" size="25"
+                                    pattern="[0-9a-fA-F]{3,}" required>
+                            </div>
+                        </form>
                     </div>
 
-                    <div class="form-column-right">
-                        <label for="last_name">LAST NAME</label>
-                        <input type="text" id="last_name" name="last_name" size="25">
-
-                        <label for="phone">PHONE NUMBER</label>
-                        <input type="tel" id="phone" name="phone" size="25">
-
-                        <label for="confirm_password">CONFIRM PASSWORD</label>
-                        <input type="password" id="confirm_password" name="confirm_password" size="25" pattern="[0-9a-fA-F]{3,}" required>
+                    <div class="bottom">
+                        <button type="submit" form="submit_form">Create Account</button>
+                        <p>Already have an account? <a href="">Log in</a></p>
                     </div>
-                </form>
+                </section>
             </div>
-
-            <div class="bottom">
-                <button type="submit" form="submit_form">Create Account</button>
-                <p>Already have an account? <a href="">Log in</a></p>
-            </div>
-        </div>
     </div>
+    </main>
 </body>
 
 </html>
