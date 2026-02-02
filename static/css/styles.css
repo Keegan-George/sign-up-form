@@ -36,6 +36,7 @@ body {
 .left {
     display: flex;
     flex-direction: column;
+    justify-content: space-between;
     width: 35vw;
     height: 100vh;
     background-image: url("../img/lucha-masks.jpg");
@@ -45,6 +46,7 @@ body {
 .logo {
     display: flex;
     justify-content: center;
+    align-items: center;
     margin-top: 25vh;
     padding: 5px;
     width: 100%;
@@ -52,24 +54,12 @@ body {
     background-color: var(--logo-background-color);
 }
 
-.image-container,
-.title-container {
-    flex: initial;
-}
-
 img {
     height: 100%;
     width: 100%;
 }
 
-.title-container {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
-
-.title {
-    flex: 1;
+h1 {
     color: white;
     font-family: "Gravitas One";
     font-size: calc(4rem + 0.75vw);
@@ -78,9 +68,8 @@ img {
 figcaption {
     color: white;
     font-weight: 700;
-    margin-top: 55vh;
-    margin-bottom: 1vh;
     font-size: calc(0.5rem + 0.1vw);
+    margin-bottom: 1rem;
 }
 
 figcaption a {
