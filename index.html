@@ -28,52 +28,50 @@
         </aside>
 
         <main>
-            <div class="right">
-                <section>
-                    <div class="top">
-                        <div class="text-container">
-                            <p class="intro">This is not a real online service! You know you need something like this in
-                                your life to
-                                help you realize your deepest dreams.<br />
-                                Sign up <span class="italic">now</span> to get started.
-                            </p>
+            <section>
+                <div class="top">
+                    <div class="text-container">
+                        <p class="intro">This is not a real online service! You know you need something like this in
+                            your life to
+                            help you realize your deepest dreams.<br />
+                            Sign up <span class="italic">now</span> to get started.
+                        </p>
 
-                            <p class="sub-intro">You <span class="italic">know</span> you want to.</p>
+                        <p class="sub-intro">You <span class="italic">know</span> you want to.</p>
+                    </div>
+                </div>
+
+                <div class="middle">
+                    <form id="submit_form" method="get">
+                        <div class="form-column-left">
+                            <label for="first_name">FIRST NAME</label>
+                            <input type="text" id="first_name" name="first_name" size="25">
+
+                            <label for="email">EMAIL</label>
+                            <input type="email" id="email" name="email" size="25" required>
+
+                            <label for="password">PASSWORD</label>
+                            <input type="password" id="password" name="password" size="25" required>
                         </div>
-                    </div>
 
-                    <div class="middle">
-                        <form id="submit_form" method="get">
-                            <div class="form-column-left">
-                                <label for="first_name">FIRST NAME</label>
-                                <input type="text" id="first_name" name="first_name" size="25">
+                        <div class="form-column-right">
+                            <label for="last_name">LAST NAME</label>
+                            <input type="text" id="last_name" name="last_name" size="25">
 
-                                <label for="email">EMAIL</label>
-                                <input type="email" id="email" name="email" size="25" required>
+                            <label for="phone">PHONE NUMBER</label>
+                            <input type="tel" id="phone" name="phone" size="25">
 
-                                <label for="password">PASSWORD</label>
-                                <input type="password" id="password" name="password" size="25" required>
-                            </div>
+                            <label for="confirm_password">CONFIRM PASSWORD</label>
+                            <input type="password" id="confirm_password" name="confirm_password" size="25" required>
+                        </div>
+                    </form>
+                </div>
 
-                            <div class="form-column-right">
-                                <label for="last_name">LAST NAME</label>
-                                <input type="text" id="last_name" name="last_name" size="25">
-
-                                <label for="phone">PHONE NUMBER</label>
-                                <input type="tel" id="phone" name="phone" size="25">
-
-                                <label for="confirm_password">CONFIRM PASSWORD</label>
-                                <input type="password" id="confirm_password" name="confirm_password" size="25" required>
-                            </div>
-                        </form>
-                    </div>
-
-                    <div class="bottom">
-                        <button type="submit" form="submit_form">Create Account</button>
-                        <p>Already have an account? <a href="">Log in</a></p>
-                    </div>
-                </section>
-            </div>
+                <div class="bottom">
+                    <button type="submit" form="submit_form">Create Account</button>
+                    <p>Already have an account? <a href="">Log in</a></p>
+                </div>
+            </section>
         </main>
     </div>
 
