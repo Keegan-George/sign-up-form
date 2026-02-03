@@ -6,7 +6,7 @@ This project is part of [The Odin Project's Full Stack Javascript path](https://
 ## Installation
 1. Clone the repository
 2. Navigate to the project folder: ```cd sign-up-form```
-3. Open index.html in your browser
+3. Open index.html in any modern browser
 
 ## Assets and Attribution
 Fonts:
